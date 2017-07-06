@@ -73,11 +73,7 @@
       </ul>
 
       <ul class="nav navbar-toolbar navbar-toolbar-right navbar-right">
-        <li class="nav-item dropdown hidden-float">
-          <a href="javascript:void(0)" data-toggle="collapse" data-target="#navbar-search" aria-expanded="false">
-            <i class="zmdi zmdi-hc-lg zmdi-search"></i>
-          </a>
-        </li>
+      
 
         <li class="dropdown">
           <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="zmdi zmdi-hc-lg zmdi-notifications"></i></a>
@@ -144,19 +140,7 @@
           </div>
         </li>
 
-        <li class="dropdown">
-          <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="zmdi zmdi-hc-lg zmdi-settings"></i></a>
-          <ul class="dropdown-menu animated flipInY">
-            <li><a href="javascript:void(0)"><i class="zmdi m-r-md zmdi-hc-lg zmdi-account-box"></i>My Profile</a></li>
-            <li><a href="javascript:void(0)"><i class="zmdi m-r-md zmdi-hc-lg zmdi-balance-wallet"></i>Balance</a></li>
-            <li><a href="javascript:void(0)"><i class="zmdi m-r-md zmdi-hc-lg zmdi-phone-msg"></i>Connection<span class="label label-primary">3</span></a></li>
-            <li><a href="javascript:void(0)"><i class="zmdi m-r-md zmdi-hc-lg zmdi-info"></i>privacy</a></li>
-          </ul>
-        </li>
-
-        <li class="dropdown">
-          <a href="javascript:void(0)" class="side-panel-toggle" data-toggle="class" data-target="#side-panel" data-class="open" role="button"><i class="zmdi zmdi-hc-lg zmdi-apps"></i></a>
-        </li>
+      
       </ul>
     </div>
   </div><!-- navbar-container -->
@@ -175,41 +159,7 @@
       <div class="media-body">
         <div class="foldable">
           <h5><a href="javascript:void(0)" class="username">John Doe</a></h5>
-          <ul>
-            <li class="dropdown">
-              <a href="javascript:void(0)" class="dropdown-toggle usertitle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <small>Web Developer</small>
-                <span class="caret"></span>
-              </a>
-              <ul class="dropdown-menu animated flipInY">
-                <li>
-                  <a class="text-color" href="/index.html">
-                    <span class="m-r-xs"><i class="fa fa-home"></i></span>
-                    <span>Home</span>
-                  </a>
-                </li>
-                <li>
-                  <a class="text-color" href="profile.html">
-                    <span class="m-r-xs"><i class="fa fa-user"></i></span>
-                    <span>Profile</span>
-                  </a>
-                </li>
-                <li>
-                  <a class="text-color" href="settings.html">
-                    <span class="m-r-xs"><i class="fa fa-gear"></i></span>
-                    <span>Settings</span>
-                  </a>
-                </li>
-                <li role="separator" class="divider"></li>
-                <li>
-                  <a class="text-color" href="logout.html">
-                    <span class="m-r-xs"><i class="fa fa-power-off"></i></span>
-                    <span>Logout</span>
-                  </a>
-                </li>
-              </ul>
-            </li>
-          </ul>
+          
         </div>
       </div><!-- .media-body -->
     </div><!-- .media -->
@@ -229,11 +179,12 @@
 
         <li class="has-submenu">
           <a href="javascript:void(0)" class="submenu-toggle">
-            <i class="menu-icon zmdi zmdi-puzzle-piece zmdi-hc-lg"></i>
+           <i class="zmdi m-r-md zmdi-hc-lg zmdi-balance-wallet"></i>
             <span class="menu-text">Wallet</span>
             <i class="menu-caret zmdi zmdi-hc-sm zmdi-chevron-right"></i>
           </a>
           <ul class="submenu">
+              <li><a href="buttons.html"><span class="menu-text">Balance</span></a></li>
             <li><a href="buttons.html"><span class="menu-text">Deposit</span></a></li>
             <li><a href="alerts.html"><span class="menu-text">Withdrawl</span></a></li>
             <li><a href="panels.html"><span class="menu-text">Request</span></a></li>
@@ -242,7 +193,7 @@
         </li>
            <li class="has-submenu">
           <a href="javascript:void(0)" class="submenu-toggle">
-            <i class="menu-icon zmdi zmdi-puzzle-piece zmdi-hc-lg"></i>
+           <i class="menu-icon zmdi zmdi-layers zmdi-hc-lg"></i>
             <span class="menu-text">Place Order</span>
             <i class="menu-caret zmdi zmdi-hc-sm zmdi-chevron-right"></i>
           </a>
@@ -257,36 +208,34 @@
         
         <li>
           <a href="search.web.html">
-            <i class="menu-icon zmdi zmdi-search zmdi-hc-lg"></i>
-            <span class="menu-text">Trade</span>
+          <i class="menu-icon zmdi zmdi-chart zmdi-hc-lg"></i>
+            <span class="menu-text">Live Order Book</span>
           </a>
         </li>
 
            <li>
           <a href="search.web.html">
-            <i class="menu-icon zmdi zmdi-search zmdi-hc-lg"></i>
-            <span class="menu-text">Transaction</span>
+           <i class="menu-icon zmdi zmdi-file-text zmdi-hc-lg"></i>
+            <span class="menu-text">Transactions</span>
           </a>
         </li>
+          <li class="has-submenu">
+          <a href="javascript:void(0)" class="submenu-toggle">
+            <i class="menu-icon zmdi zmdi-apps zmdi-hc-lg"></i>
+            <span class="menu-text">Trade Requests</span>
+            <span class="label label-info menu-label">2</span>
+            <i class="menu-caret zmdi zmdi-hc-sm zmdi-chevron-right"></i>
+          </a>
+          
+        </li>
 
-       
-
-       
-
-       
-
-        
-
-       
-
-      
-
+ 
         <li class="menu-separator"><hr></li>
 
         <li>
           <a href="documentation.html">
-            <i class="menu-icon zmdi zmdi-file-text zmdi-hc-lg"></i>
-            <span class="menu-text">Documentation</span>
+           <i class="zmdi m-r-md zmdi-hc-lg zmdi-account-box"></i>
+            <span class="menu-text">Profile</span>
           </a>
         </li>
 
@@ -294,6 +243,13 @@
           <a href="javascript:void(0)">
             <i class="menu-icon zmdi zmdi-settings zmdi-hc-lg"></i>
             <span class="menu-text">Settings</span>
+          </a>
+        </li>
+
+           <li>
+          <a href="javascript:void(0)">
+           <i class="fa fa-power-off"></i>
+            <span class="menu-text">Logout</span>
           </a>
         </li>
        
@@ -317,12 +273,83 @@
   <div class="navbar-search-backdrop" data-toggle="collapse" data-target="#navbar-search" aria-expanded="false"></div>
 </div><!-- .navbar-search -->
 
-        
+    <main id="app-main" class="app-main">
+  <div class="wrap">
+	<section class="app-content">
+		
+
+		<div class="row">
+			<div class="col-md-3 col-sm-6">
+				<div class="widget stats-widget">
+					<div class="widget-body clearfix">
+						<div class="pull-left">
+							<h3 class="widget-title text-primary">1 ETH   <span class="counter" data-plugin="counterUp">18900</span> cc</h3>
+							<small class="text-color">Last Traded Price</small>
+						</div>
+						<span class="pull-right big-icon watermark"><i class="fa fa-paperclip"></i></span>
+					</div>
+					<footer class="widget-footer bg-primary">
+						<small>24h  Total Volume - 65432</small>
+						<span class="small-chart pull-right" data-plugin="sparkline" data-options="[4,3,5,2,1], { type: 'bar', barColor: '#ffffff', barWidth: 5, barSpacing: 2 }"></span>
+					</footer>
+				</div><!-- .widget -->
+			</div>
+
+			<div class="col-md-3 col-sm-6">
+				<div class="widget stats-widget">
+					<div class="widget-body clearfix">
+						<div class="pull-left">
+							<h3 class="widget-title text-danger">1 XRP   <span class="counter" data-plugin="counterUp">18</span> cc</h3>
+							<small class="text-color">Last Traded Price</small>
+						</div>
+						<span class="pull-right big-icon watermark"><i class="fa fa-ban"></i></span>
+					</div>
+					<footer class="widget-footer bg-danger">
+						<small>24h Total Volume - 76</small>
+						<span class="small-chart pull-right" data-plugin="sparkline" data-options="[1,2,3,5,4], { type: 'bar', barColor: '#ffffff', barWidth: 5, barSpacing: 2 }"></span>
+					</footer>
+				</div><!-- .widget -->
+			</div>
+
+			<div class="col-md-3 col-sm-6">
+				<div class="widget stats-widget">
+					<div class="widget-body clearfix">
+						<div class="pull-left">
+							<h3 class="widget-title text-success">ETH/BTC  <span class="counter" data-plugin="counterUp">8.378</span> </h3>
+							<small class="text-color">Price in BTC per ETH</small>
+						</div>
+						<span class="pull-right big-icon watermark"><i class="fa fa-unlock-alt"></i></span>
+					</div>
+					<footer class="widget-footer bg-success">
+						<small>1 ETH = 0.11 BTC</small>
+						<span class="small-chart pull-right" data-plugin="sparkline" data-options="[2,4,3,4,3], { type: 'bar', barColor: '#ffffff', barWidth: 5, barSpacing: 2 }"></span>
+					</footer>
+				</div><!-- .widget -->
+			</div>
+
+			<div class="col-md-3 col-sm-6">
+				<div class="widget stats-widget">
+					<div class="widget-body clearfix">
+						<div class="pull-left">
+							<h3 class="widget-title text-warning">XRP/BTC <span class="counter" data-plugin="counterUp">3.490</span></h3>
+							<small class="text-color">Price in BTC per 100XRP</small>
+						</div>
+						<span class="pull-right big-icon watermark"><i class="fa fa-file-text-o"></i></span>
+					</div>
+					<footer class="widget-footer bg-warning">
+						<small>100 XRP = 0.001 BTC</small>
+						<span class="small-chart pull-right" data-plugin="sparkline" data-options="[5,4,3,5,2],{ type: 'bar', barColor: '#ffffff', barWidth: 5, barSpacing: 2 }"></span>
+					</footer>
+				</div><!-- .widget -->
+			</div>
+		</div><!-- .row -->    
 
         <asp:ContentPlaceHolder ID="CPH_Workarea" runat="server">
 
         </asp:ContentPlaceHolder>
-
+        </section><!-- #dash-content -->
+</div><!-- .wrap -->
+</main>
     <!-- APP CUSTOMIZER -->
 	<div id="app-customizer" class="app-customizer">
 		<a href="javascript:void(0)" 
