@@ -13,6 +13,16 @@
                    <div class="widget-body">
 					<table width="80%" class="table table-striped" style="font-family: Arial, Helvetica, sans-serif;">
                         <tbody>
+                            
+                            <tr>
+                                <td width="140">
+                                    <div align="right">
+                                        <span class="labels">Name:</span></div>
+                                </td>
+                                <td width="910">
+                                    <strong><span id="ctl00_ContentPlaceHolder2_lbl_name" style="text-transform:capitalize">faraaz khan22</span> </strong>
+                                </td>
+                            </tr>
                             <tr>
                                 <td>
                                     <div align="right">
@@ -21,15 +31,6 @@
                                 <td>
                                     <strong>
                                         GC<span id="ctl00_ContentPlaceHolder2_lbl_clientid">1666</span></strong>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td width="140">
-                                    <div align="right">
-                                        <span class="labels">Name:</span></div>
-                                </td>
-                                <td width="910">
-                                    <strong><span id="ctl00_ContentPlaceHolder2_lbl_name" style="text-transform:capitalize">faraaz khan22</span> </strong>
                                 </td>
                             </tr>
                             <tr>
@@ -79,7 +80,7 @@
 							</div>
             <div class="text-center p-h-md" style="border-right: 2px solid #eee">
 								<h2 class="fz-xl fw-400 m-0">2.00 ETH</h2>
-                                <span><img src="../assets/images/eth.png" style="width:30px;height:30px"/></span>
+                                <span><img src="../assets/images/eth.png" style="width:30px;height:45px"/></span>
 							</div>
             <div class="text-center p-h-md" style="border-right: 2px solid #eee">
 								<h2 class="fz-xl fw-400 m-0">600.00 XRP</h2>
