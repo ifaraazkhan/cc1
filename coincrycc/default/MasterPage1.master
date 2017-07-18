@@ -200,27 +200,28 @@
           <ul class="submenu">
             <li><a href="eth.aspx"><span class="menu-text">Ether</span></a></li>
             <li><a href="xrp.aspx"><span class="menu-text">Ripple</span></a></li>
-            <li><a href="panels.html"><span class="menu-text">CC</span></a></li>
+            <li><a href="cc.aspx"><span class="menu-text">CC</span></a></li>
             
           </ul>
         </li>
        
         
         <li>
-          <a href="search.web.html">
+          <a href="cc_orderbook.aspx">
           <i class="menu-icon zmdi zmdi-chart zmdi-hc-lg"></i>
-            <span class="menu-text">Live Order Book</span>
+            <span class="menu-text">Buy CC Orders</span>
           </a>
         </li>
 
            <li>
-          <a href="search.web.html">
+          <a href="cc_transfer.aspx">
            <i class="menu-icon zmdi zmdi-file-text zmdi-hc-lg"></i>
-            <span class="menu-text">Transactions</span>
+            <span class="menu-text">Sell/Transfer CC</span>
           </a>
         </li>
-          <li class="has-submenu">
-          <a href="javascript:void(0)" class="submenu-toggle">
+         
+          <li>
+          <a href="ccrequest.aspx" >
             <i class="menu-icon zmdi zmdi-apps zmdi-hc-lg"></i>
             <span class="menu-text">Trade Requests</span>
             <span class="label label-info menu-label">2</span>
@@ -233,16 +234,9 @@
         <li class="menu-separator"><hr></li>
 
         <li>
-          <a href="documentation.html">
+          <a href="Profile.aspx">
            <i class="zmdi m-r-md zmdi-hc-lg zmdi-account-box"></i>
             <span class="menu-text">Profile</span>
-          </a>
-        </li>
-
-        <li>
-          <a href="javascript:void(0)">
-            <i class="menu-icon zmdi zmdi-settings zmdi-hc-lg"></i>
-            <span class="menu-text">Settings</span>
           </a>
         </li>
 
